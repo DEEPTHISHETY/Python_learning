@@ -92,7 +92,57 @@
                     - you can define constant by using all-caps names with underscores. 
                     - For example, the name PI_VALUE indicates that you don't want the variable redefined or changed in any way.
 
---> Python - Private Variables:
+--> Python Operators:
+            - Operators are the special symbols used to perform operations.
+            --> Python Arithmetic Operators:
+                    - Python Arithmetic operators are used to perform basic mathematical operations such as addition, subtraction, multiplication, etc.
+                    +	Addition	2 + 3 = 5
+                    -	Subtraction	2 - 3 = -1
+                    *	Multiplication	2 * 3 = 6
+                    /	Division	4 / 2 = 2.0
+                    %	Modulus	4 % 2 = 0
+                    **	Exponent	4**2 =4 power of 2 = 16
+                    //	Floor Division 4 // 2 = 2
+
+            -->Python Comparison Operators:
+                    -Python Comparison operators compare the values on either side of them and decide the relation among them. 
+                    - They are also called Relational operators.
+                        a = 10
+                        b = 20
+                        if(a == b):
+                            print("Line1: a is equal to b")
+                        else:
+                            print("Line1: a is not equal b")
+
+                        if(a != b):
+                            print("Line2: a is not equal to be")
+                        else:
+                            print("Line: a is equal to b")
+
+                        if(a > b):
+                            print("Line3: a is greater than b ")
+                        else:
+                            print("Line3: a is not greater than b")
+
+                        if(a < b):
+                            print("Line 4: a is lesser than b")
+                        else:
+                            print("Line 4: a is not lesser than b")
+
+                        if(a >= b):
+                            print("Line5 : a is greater than or equal to b")
+                        else:
+                            print("Line5: a is not greater than or equal to b")
+
+                        if (a <=b):
+                            print("Line6: a is lesser than or equal to b")
+                        else:
+                            print("Line6: a is not lesser than equal to b")
+
+
+
+
+
 
 
 
