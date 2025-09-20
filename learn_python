@@ -213,8 +213,7 @@
 
                                     -Output:[1, 2, 3, 4, 5, 6, 7, 10]
 
-                --> Adding List Items Using insert() Method: 
-                                    - Used to insert elemement on specific Index by shifting existing list to accomudate new value.
+                --> Adding List Items Using insert() Method: Used to insert elemement on specific Index by shifting existing list to accomudate new value.
 
                                     List1 = [1, 2, 3, 4, 5, 6, 7]
                                     List1.insert(1, "Newvalueinsertedatindex1")   <==== Take 2 arguments , first one is index and second one is value to be inserted
@@ -222,6 +221,40 @@
 
                                     -Output: [1, 'Newvalueinsertedatindex1', 2, 3, 4, 5, 6, 7]
 
+                --> Adding List Items Using extend() Method: Add another list2 to end of List1
+                                    List1 = [1, 2, 3, 4, 5, 6, 7]
+                                    List2 = [10 , 20 , 30]
+                                    List1.extend(List2)
+                                    print(List1)
+
+                                    -Output: [1, 2, 3, 4, 5, 6, 7, 10, 20, 30]
+                            
+        ===> Remove List Items:- you can remove list using remove() , pop() , clear()
+
+                            -> Remove List Item Using remove() Method
+                                    List1 = [1, 2, 3, 4, 5, 6, 7]
+                                    List1.remove(3)      <==== you need to give element name not the index
+                                    print(List1)
+                                 
+                                    -Output: [1, 2, 4, 5, 6, 7]
+
+                            --> Remove List Item Using pop() Method: 
+
+                                    List1 = [10, 20, 30, 40, 50, 60, 70]
+                                    List1.pop(5)        <===== you need to give the index 
+                                    print(List1)
+
+                                    -Output: [10, 20, 30, 40, 50, 70]
+
+                            ---> Remove List Item Using clear() Method
+
+                                    List1 = [10, 20, 30, 40, 50, 60, 70]
+                                    List1.clear()
+                                    print(List1)
+
+                                    -Output:  []
+
+                
 
 
 
@@ -235,6 +268,8 @@
                                     Output:
                                     elemented deleted at index 2 3
                                     [1, 2, 4, 5, 6, 7]
+
+
 
                                 
 
