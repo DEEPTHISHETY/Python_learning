@@ -88,7 +88,11 @@
                         return sum
                     print(sum())
 
-            -Constants in Python:
+            -Constants in Python: 
+                    - you can define constant by using all-caps names with underscores. 
+                    - For example, the name PI_VALUE indicates that you don't want the variable redefined or changed in any way.
+
+--> Python - Private Variables:
 
 
 
