@@ -139,6 +139,20 @@
                         else:
                             print("Line6: a is not lesser than equal to b")
 
+                --> Python Assignment Operators: Used to assign values to variable.
+
+                        =	a = 10	a = 10
+                        +=	a += 30	a = a + 30
+                        -=	a -= 15	a = a - 15
+                        *=	a *= 10	a = a * 10
+                        /=	a /= 5	a = a / 5
+                        %=	a %= 5	a = a % 5
+                        **=	a **= 4	a = a ** 4
+                        //=	a //= 5	a = a // 5
+
+                --> Python Logical Operators:
+                        - Python logical operators are used to combine two or more conditions and check the final result
+                        - AND , OR, NOT 
 
 
 
