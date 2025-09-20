@@ -71,4 +71,27 @@
                              30
                              <class 'int'>
 
+            - Case-Sensitivity of Python Variables: Python variables are case sensitive which means Age and age are two different variables
+            - Python Variables - Multiple Assignment: 
+                    a=b=c=10
+            - Python Local Variables: Python Local Variables are defined inside a function. We can not access variable outside the function.
+                    def sum(x,y):
+                       sum = x + y
+                       return sum
+                    print(sum(5, 10))
+
+            - Python Global Variables: Any variable created outside a function can be accessed within any function and so they have global scope.
+                    x = 5
+                    y = 10
+                    def sum():
+                        sum = x + y
+                        return sum
+                    print(sum())
+
+            -Constants in Python:
+
+
+
+
+
 
