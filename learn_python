@@ -154,6 +154,53 @@
                         - Python logical operators are used to combine two or more conditions and check the final result
                         - AND , OR, NOT 
 
+--> Python - Lists :- 
+                - Python list is sequence of items separated by commas, enclosed in square brackets []
+                - items in List need not be of same type.
+                - A list in Python is similar to an array in C, C++ or Java
+                - eg:  List1 = ["Deepthi","Nagesh",30,40];
+
+
+                --> Accessing Values in Lists:
+                                    -List1 = [1, 2, 3, 4, 5, 6, 7 ]
+                                    -print(List1[0])
+                                        Output: 1
+                                    - print(List1[6])       
+                                        Output: 7
+                                    - print(List1[-1])
+                                        Output : 7
+                                    - print ("list1[1:5]: ", List2[1:5])
+                                        Output: list1[1:5]:[2,3,4,5]
+
+                -->Access List Items with Slice Operator:   [start:stop] 
+
+                --> Updating Lists:- Should be updated within index range
+                                    List1 = [1, 2, 3, 4, 5, 6, 7]
+                                    List1[6] = 9
+                                    print("New value added at index 6:", List1[6])
+                                    print(List1)
+
+                                    -Output: New value added at index 6: 9
+                                            1, 2, 3, 4, 5, 6, 9]
+
+                --> Delete List Elements: To delete element from List , you can use "del" or "remove()"  method.
+                                    List1 = [1, 2, 3, 4, 5, 6, 7]
+                                    print("elemented deleted at index 2", List1[2])
+                                    del List1[2]
+                                    print(List1)
+
+                                    Output:
+                                    elemented deleted at index 2 3
+                                    [1, 2, 4, 5, 6, 7]
+
+                                
+
+
+                        
+                            
+
+
+
 
 
 
