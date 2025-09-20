@@ -1,1 +1,152 @@
 # Python_learning
+--> Install Python locally
+--> If you want to code in Visual studio then install "phython" and " runners" extensions.
+
+--> Python Basic syntax:-
+
+    -->Python Identifiers :
+            - A Python identifier is a name used to identify a variable, function, class, module or other object. An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters, underscores and digits (0 to 9).
+            - Python does not allow punctuation characters such as &commat;, $, and % within identifiers.
+            - Python Class names start with an uppercase letter. All other identifiers start with a lowercase letter.
+            - Starting an identifier with a single leading underscore indicates that the identifier is private identifier.
+
+            -Starting an identifier with two leading underscores indicates a strongly private identifier.
+
+            - If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.
+
+    --> Python Reserved Words:
+          - there are some reserverd keywords which cant be used as constant or variable or any other identifier names.
+          - All the Python keywords contain lowercase letters only
+          - and,as,assert,break,class,continue,def,del,elif,else,except,False,finally,for,from
+
+    --> Python Lines and Indentation:-
+
+    --> Python Multi-Line Statements:-
+          - Statements in Python typically end with a new line. 
+          - Python does, however, allow the use of the line continuation character (\) to denote that the line should continue. 
+
+    --> Quotations in Python:-
+          -Python accepts single ('), double (") and triple (''' or """) quotes to denote string literals, as long as the same type of quote starts and ends the string.
+
+    --> Comments in Python:-
+        - A hash sign (#) that is not inside a string literal begins a comment.
+        - All characters after the # and up to the end of the physical line are part of the comment and the Python interpreter ignores them.
+            - Following triple-quoted string is also ignored by Python interpreter and can be used as a multiline comments: [ '''   COMMENTS  ''']
+
+    --> Multiple Statements on a Single Line:-
+            - The semicolon ( ; ) allows multiple statements on the single line given that neither statement starts a new code block.
+
+
+--> Python Variables:-
+            - Variables are used to store values.
+            - Variables reserve the memory locations to store the values
+            - Based on the variable data type, memory will be allocated to variable.
+            - Python's built-in id() function returns the address where the object is stored.
+            - For eg : 
+                    name="deepthi"
+                    print(id(name))
+
+            - Create python variable : you create variable and assign variable using [=] sign.
+                    name="deepthi"
+                    age = 30
+
+            - Printing Python Variables: you can print variable using print()
+                    print(name)
+
+            - Deleting Python Variables:- you can delete variable using "del" keyword.
+                    name="deepthi"
+                    age = 30
+                    print(name)
+                    print(age)
+                    del age
+                    print(age)
+
+            - Getting Type of a Variable: you can use " type() " to get type of variable.
+                    name="deepthi"
+                    age = 30
+                    print(name)
+                    print(age)
+                    print(type(age))
+
+                    Output : deepthi
+                             30
+                             <class 'int'>
+
+            - Case-Sensitivity of Python Variables: Python variables are case sensitive which means Age and age are two different variables
+            - Python Variables - Multiple Assignment: 
+                    a=b=c=10
+            - Python Local Variables: Python Local Variables are defined inside a function. We can not access variable outside the function.
+                    def sum(x,y):
+                       sum = x + y
+                       return sum
+                    print(sum(5, 10))
+
+            - Python Global Variables: Any variable created outside a function can be accessed within any function and so they have global scope.
+                    x = 5
+                    y = 10
+                    def sum():
+                        sum = x + y
+                        return sum
+                    print(sum())
+
+            -Constants in Python: 
+                    - you can define constant by using all-caps names with underscores. 
+                    - For example, the name PI_VALUE indicates that you don't want the variable redefined or changed in any way.
+
+--> Python Operators:
+            - Operators are the special symbols used to perform operations.
+            --> Python Arithmetic Operators:
+                    - Python Arithmetic operators are used to perform basic mathematical operations such as addition, subtraction, multiplication, etc.
+                    +	Addition	2 + 3 = 5
+                    -	Subtraction	2 - 3 = -1
+                    *	Multiplication	2 * 3 = 6
+                    /	Division	4 / 2 = 2.0
+                    %	Modulus	4 % 2 = 0
+                    **	Exponent	4**2 =4 power of 2 = 16
+                    //	Floor Division 4 // 2 = 2
+
+            -->Python Comparison Operators:
+                    -Python Comparison operators compare the values on either side of them and decide the relation among them. 
+                    - They are also called Relational operators.
+                        a = 10
+                        b = 20
+                        if(a == b):
+                            print("Line1: a is equal to b")
+                        else:
+                            print("Line1: a is not equal b")
+
+                        if(a != b):
+                            print("Line2: a is not equal to be")
+                        else:
+                            print("Line: a is equal to b")
+
+                        if(a > b):
+                            print("Line3: a is greater than b ")
+                        else:
+                            print("Line3: a is not greater than b")
+
+                        if(a < b):
+                            print("Line 4: a is lesser than b")
+                        else:
+                            print("Line 4: a is not lesser than b")
+
+                        if(a >= b):
+                            print("Line5 : a is greater than or equal to b")
+                        else:
+                            print("Line5: a is not greater than or equal to b")
+
+                        if (a <=b):
+                            print("Line6: a is lesser than or equal to b")
+                        else:
+                            print("Line6: a is not lesser than equal to b")
+
+
+
+
+
+
+
+
+
+
+
