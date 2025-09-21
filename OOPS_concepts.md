@@ -68,4 +68,25 @@ Class and Instance attributes: If class attr and object attr name is same then o
     student name from class attribute: Managlore College
 
 
+Assignment: - Create a student class that takes name and marks of 3 subjects as an arguments in constructor. then create a method to print the average
+
+    class Student:
+    
+        def __init__(self, name, math_marks, science_marks, physics_marks):
+            self.name = name
+            self.math_marks = math_marks
+            self.science_marks = science_marks
+            self.science_marks = science_marks
+    
+        def avergae_marks(self):
+            self.average = (self.math_marks + self.science_marks + self.science_marks) / 3
+            print("Hi", self.name,"your average is:",self.average)
+        
+    S1 = Student("Deepthi bhandary", 100, 50, 90)
+    S1.avergae_marks()
+
+    Output : Hi Deepthi bhandary your average is: 66.66666666666667
+
+
+
 
