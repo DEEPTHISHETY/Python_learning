@@ -303,6 +303,19 @@
                                     List[4] 10
                                     List[5] 100
 
+        ==> Sorting Lists in Python: Sorting a list in Python is a way to arrange the elements of the list in either ascending or descending order
+
+                --> Sorting Lists Using sort() Method:
+                                    lst = [25, 12, 10, -21, 10, 100]
+                                    print("List before sort",lst)
+                                    lst.sort()
+                                    print("List after sort",lst)
+
+                                    -Output:
+                                    List before sort [25, 12, 10, -21, 10, 100]
+                                    List after sort [-21, 10, 10, 12, 25, 100]
+
+
 
 
                                 
