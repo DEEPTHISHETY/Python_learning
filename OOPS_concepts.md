@@ -21,12 +21,29 @@ Class and objects:
 Constructor : Method iside a class [ __init__ function ]
 All classes have a function called __init__ which will be executed when object is being initiated.
 
+Program1:
+
     class Student:
             def __init__(self,fullname):         #constructor. Always take atleast one argument "self" pointing to object. Here S1
                     self.name = fullname
                 
     S1 = Student("Deepthi Bhandary")
     print(S1.name)
+
+    Output
+
+
+progam2 : 
+
+    class Student:
+            def __init__(self,fullname):
+                    self.fullname = fullname
+                
+    S1 = Student("Deepthi Bhandary")
+    print(S1.fullname)
+
+    Output : Deepthi Bhandary
+
 
 
 
