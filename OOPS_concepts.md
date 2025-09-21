@@ -25,19 +25,19 @@ Program1:
 
     class Student:
             def __init__(self,fullname):         #constructor. Always take atleast one argument "self" pointing to object. Here S1
-                    self.name = fullname
+                    self.name = fullname         
                 
     S1 = Student("Deepthi Bhandary")
     print(S1.name)
 
-    Output
+    Output : Deepthi Bhandary 
 
 
 progam2 : 
 
     class Student:
             def __init__(self,fullname):
-                    self.fullname = fullname
+                    self.fullname = fullname      # you can use the same name for passed argument to constructor and variable used inside constructor
                 
     S1 = Student("Deepthi Bhandary")
     print(S1.fullname)
