@@ -88,5 +88,8 @@ Assignment: - Create a student class that takes name and marks of 3 subjects as 
     Output : Hi Deepthi bhandary your average is: 66.66666666666667
 
 
+https://www.youtube.com/@shradhaKD/featured
+
+
 
 
