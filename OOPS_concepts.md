@@ -8,7 +8,7 @@ OOPS concepts: Object oriented programming
     5. Polymorphism
 
 
-Class and objects:
+Class and objects: 
 
     class Student:    #Creating clss and class name should start with CAPS 
         name = "Deepthi Bhandary"
@@ -45,7 +45,7 @@ progam2 :
     Output : Deepthi Bhandary
 
 
-Class and Instance attributes:
+Class and Instance attributes: If class attr and object attr name is same then object attribute will take the precedence
 
     class Student:
         college_name = "Managlore College"  # Class attributes which is common for all objects. 
