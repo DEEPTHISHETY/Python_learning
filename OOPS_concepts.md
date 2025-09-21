@@ -45,5 +45,27 @@ progam2 :
     Output : Deepthi Bhandary
 
 
+Class and Instance attributes:
+
+    class Student:
+        college_name = "Managlore College"  # Class attributes which is common for all objects. 
+                                            #can be access directly used class attribute or object attribute
+        def __init__(self, fullname, roll_no):
+            self.name = fullname   # Object attributes
+            self.roll_no = roll_no  #Object attibutes
+                    
+    S1 = Student("Deepthi Bhandary", 50)
+    print(S1.name)
+    print(S1.roll_no)
+    print("Student name from object attribute:",S1.college_name)
+    print("student name from class attribute:",Student.college_name)
+
+    Output:-
+
+    Deepthi Bhandary
+    50
+    Student name from object attribute: Managlore College
+    student name from class attribute: Managlore College
+
 
 
