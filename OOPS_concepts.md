@@ -18,5 +18,15 @@ Class and objects:
     
     print(S1.name)   #accessing attributes of class using object
 
-Constructor : __init__ function 
-    All classes have a function called __init__ which will be executed when object is being created.
+Constructor : Method iside a class [ __init__ function ]
+All classes have a function called __init__ which will be executed when object is being initiated.
+
+    class Student:
+            def __init__(self,fullname):         #constructor. Always take atleast one argument "self" pointing to object. Here S1
+                    self.name = fullname
+                
+    S1 = Student("Deepthi Bhandary")
+    print(S1.name)
+
+
+
