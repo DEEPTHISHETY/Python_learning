@@ -17,3 +17,6 @@ Class and objects:
     S1 = Student()   #creating objects of clss : Student
     
     print(S1.name)   #accessing attributes of class using object
+
+Constructor : __init__ function 
+    All classes have a function called __init__ which will be executed when object is being created.
