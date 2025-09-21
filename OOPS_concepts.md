@@ -7,6 +7,4 @@ OOPS concepts: Object oriented programming
     4. Inheritancr
     5. Polymorphism
 
-
-
-    Creating functions will reduce the redunancy.
+Creating functions will reduce the redunancy.
